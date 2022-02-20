@@ -1,1 +1,2 @@
-Simple react 
+Simple react static page using react-bootstrap.
+ 
