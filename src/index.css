@@ -1,0 +1,356 @@
+@font-face {
+  font-family: "GalanoGrotesque";
+  src: local("GalanoGrotesque"),
+    url("./fonts/galanogrotesque-regular.otf") format("truetype");
+}
+
+
+
+
+
+body {
+ 
+  margin:0px;
+  padding:0px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  font-family: Galano Grotesque;
+}
+
+header{
+  background: #146EB4;
+  height: 250px;
+}
+
+
+.navlogo{
+
+  width: 10rem;
+}
+
+.navbar{
+
+  padding: 0px 100px;
+  margin-top: 1rem;
+}
+
+.navlogo img{
+
+  width: 100%;
+}
+.navbtns{
+
+  float: right;
+}
+.navbtns .signbtn{
+  background-color: #146EB4;
+  border: none;
+  margin: 1rem 2rem;
+}
+.navbtns .dukkanbtn{
+   color: #146EB4;
+   padding: 0.5rem 2rem;
+}
+
+
+footer{
+
+  background-color: #1A181E;
+  padding-top: 3rem;
+
+}
+
+
+
+.footerlogo{
+
+  width: 10rem;
+}
+
+.footer-nav li{
+
+     display: block;
+     color:#FFFFFF;
+     font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 35px;
+}
+
+.copyright{
+    
+
+  display: flex;
+  justify-content: space-between;
+   border-top: 1px solid #FFFFFF;
+   padding: 1rem 0rem;
+}
+
+.copyright p{
+
+      font-size: 14px;
+      line-height: 20px;
+      color:#FFFFFF;
+    
+}
+
+.indiaflag{
+
+  width: 2rem;
+}
+.secondrow{
+  margin-top: 2rem;
+}
+.card{
+
+  border: none;
+}
+
+.productsec{
+
+ background-color: #ffff;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+.producttitle {
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+}
+
+.icons{
+  
+
+  background-color: #f3f8fb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.iconitem{
+
+    text-align: center;
+    
+}
+.iconitem .icontitle h5{
+
+  color: #1A181E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 2rem;
+
+}
+
+.iconitem .iconcontent p{
+
+  color: #4D4D4D;
+}
+
+  .middleone{
+
+    background-color: #fff;
+    width: 1070px;
+    height: 1430px;
+    position: relative;
+    bottom: 130px;
+    margin: 1rem auto;
+    border-radius: 10px;
+  }
+
+  .middlecontentone{
+
+        width: 736px;
+        margin: 0rem auto;
+        background-color: #ffff;
+        padding-top: 40px;
+  } 
+.middlecontentone h3{
+  margin: 1rem 0rem;
+  font-weight: 600;
+    font-size: 36px;
+}
+
+.middlecontentone .simply{
+
+    color: #4D4D4D;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.word{
+  margin-top: 3rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4D4D4D;
+}
+
+.toast{
+
+  box-shadow: none;
+}
+.slogans{
+
+  margin: 3rem 0rem;
+  background: #146EB4;
+  border-radius: 4px;
+  padding: 0.5rem 2rem;
+
+}
+.middle-content-two{
+ 
+  width: 736px;
+  margin: 0rem auto;
+  background-color: #ffff;
+  padding-top: 2rem;
+}
+
+.middle-content-two-title{
+
+  display: flex;
+  justify-content: space-between;
+}
+.middle-content-two-title h4{
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1A181E;
+
+
+}
+.download{
+  padding: 0rem 1.8rem;
+}
+
+.middle-content-boxes{
+  margin-top: 3rem;
+}
+
+.box{
+    background: #F2F2F2;
+    border-radius: 4px;
+    width: 352px;
+    padding: 1rem 1.5rem;
+    height: 4.5rem;
+    margin: 0.5rem 0rem;
+}
+
+.middle-content-three{
+
+  width: 736px;
+  margin: 0rem auto;
+}
+.page-num{
+
+  width: 10rem;
+  margin: 0rem auto;
+}
+
+.next-btn {
+  float: right;
+  position: relative;
+  bottom: 3rem;
+  color: #146EB4;
+}
+.next-btn img{
+  margin-left: 1rem;
+}
+.page-link {
+ 
+   border: none;
+
+}
+.page-item:first-child .page-link {
+
+  border-radius: 100%;
+}
+.card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+/* mobile responsive */
+
+@media screen and (max-width:1024px){
+
+  .footer-nav{
+    margin-top: 2rem;
+  }
+  .footerlogo {
+    position: relative;
+    left: 1.6rem;
+  }
+  .iconitem{
+
+    margin-top: 1rem;
+  }
+  .cards{
+
+    margin-top: 1rem;
+  }
+  .producttitle {
+    
+    text-align: center;
+  }
+  
+  .middleone {
+
+    width: auto;
+  }
+  .middlecontentone{
+
+    width: auto;
+  }
+  .middle-content-two{
+
+    width: auto;
+  }
+
+  .middle-content-three{
+    width: auto;
+  }
+  .navbar {
+     padding: 0px;
+   }
+
+  .middlecontentone {
+    text-align: center;
+   }
+
+   .middle-content-two-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+
+  .box {
+   
+    width: auto;
+    margin: 0.5rem 0.8rem;
+  }
+  .page-num {
+    width: auto;
+  }
+
+  .toast {
+    width: auto;
+    margin: 0rem 1rem;
+   }
+
+}
